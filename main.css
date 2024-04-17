@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+    height: 100vh;
+    display: grid;
+    grid-template: 1fr 3fr / 250px 3fr;
+}
+
+nav {
+  grid-row: span 2;
+  border: 1px solid black;
+}
+
+header {
+  border: 1px solid black;
+}
+
+main {
+  border: 1px solid black;
+}
