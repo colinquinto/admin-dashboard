@@ -21,7 +21,7 @@ html, body {
 .container {
     height: 100%;
     display: grid;
-    grid-template: 200px 3fr / minmax(200px, 250px) 3fr;
+    grid-template: 170px 3fr / minmax(200px, 250px) 3fr;
 }
 
 nav {
@@ -182,7 +182,7 @@ main > p {
     margin: 10px 0 10px 10px;
     display: grid;
     grid-row: span 4;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr) );
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
     grid-template-rows: repeat(3, 200px);
     gap: 20px;
     overflow: auto;
